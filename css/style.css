@@ -1,0 +1,129 @@
+@charset "UTF-*";
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+/*cores
+#BCD07B
+#A4C639
+#7B942B
+#3C4715
+#41472A
+*/
+:root {
+    --cor0: #7FFF7A;
+    --cor1: #A4C639;
+    --cor2: #2ACC25;
+    --cor3: #2D5C2B;
+    --cor4: #125C10;
+    --fonte-padrao: 'PT Sans', sans-serif;
+    ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor2);
+    font-family: var(--fonte-padrao);
+}
+#titulo-page{
+    font-size: 2rem;
+    text-align: center;
+
+}
+#primeiro-p{
+    font-size: 1rem;
+    text-align: center;
+}
+
+header {
+    background-color: var(--cor3);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    min-width: 320px;
+    background-image: linear-gradient(to top, var(--cor4),black);
+}
+nav{
+    padding: 5px;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    text-decoration: none;
+}
+nav > a:hover{
+    transition: 1s;
+    background-color:(var(--cor0));
+    color: var(--cor0);
+}
+a{
+    color: rgb(255, 255, 255);
+}
+
+main {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(243, 241, 241);
+    min-width: 904px;
+    padding: 20px ;
+    margin-bottom: 20px;
+    border-radius: 0rem  0rem 1rem 1rem;
+
+}
+main p {
+    font-size: 1.5rem;
+}
+footer{
+    background-color: var(--cor4);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    min-width: 955px;
+    max-width: 100%;
+    font-size: 1rem;
+    text-align: center;
+   
+}
+
+.imagens {
+    width: 100%;
+}
+
+.imagem-bugdroid {
+    max-width: 350px;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.subtitulo {
+    font-size: 3rem;
+
+}
+
+@media (max-width:787px) {
+    .imagem-bugdroid {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+}
+@media(max-width:955px){
+    header{
+        width:100%;
+        min-width: 955px;
+    }
+}
+@media (max-width:787px) {
+    .imagem-bugdroid {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media(max-width:955px){
+    header{
+        width:100%;
+        min-width: 955px;
+    }
+}
